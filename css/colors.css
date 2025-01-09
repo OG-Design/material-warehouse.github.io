@@ -1,0 +1,148 @@
+/* color classes bright_MODE --START */
+/* --   --  --  --  --  --  -- */
+.baseCol_1_bg {
+
+    /* color */
+    background-color: hsl(180, 5%, 75%, 1);
+
+    /* backdrop-filter: blur(10px); */
+    
+}
+
+.baseCol_2_bg {
+    /* color */
+    background-color: hsl(180, 5%, 95%);
+
+}
+
+.secoCol_1_bg {
+
+    /* color */
+    background-color: hsl(200, 20%, 85%);
+
+}
+
+.secoCol_2_bg {
+
+    /* color */
+    background-color: hsl(200, 80%, 90%);
+
+}
+
+.secoCol_3_bg {
+    /* color */
+    background-color: hsl(200, 40%, 70%);
+}
+
+.keysCol_1_bg {
+
+    /* color */
+    /* background-color: hsl(228, 71%, 53%); */
+    background-color: hsl(200, 40%, 70%);
+
+}
+
+.baseCol_1 {
+
+    /* color */
+    color: hsl(0, 0%, 10%);
+
+}
+
+.secoCol_1 {
+
+    color: hsl(228, 10%, 25%);
+
+}
+
+.secoCol_2 {
+
+    color: hsl(228, 10%, 45%);
+
+}
+
+.keysCol_1 {
+    /* color */
+    color: hsl(20, 100%, 60%);
+    /* text-shadow: 0px 3px 10px rgb(255, 255, 255); */
+
+}
+/* --   --  --  --  --  --  -- */
+/* color classes bright_MODE --END */
+
+
+
+/* color classes dark_MODE --START */
+/* --   --  --  --  --  --  -- */
+.baseCol_1_bgDark {
+
+    /* color */
+    background-color: hsl(180, 15%, 5%);
+    
+    
+
+}
+
+.baseCol_2_bgDark {
+    /* color */
+    background-color: hsl(180, 15%, 10%);
+
+}
+
+.secoCol_1_bgDark {
+
+    /* color */
+    background-color: hsl(200, 5%, 20%);
+
+}
+
+.secoCol_2_bgDark {
+
+    /* color */
+    background-color: hsl(200, 5%, 20%);
+
+}
+
+
+.secoCol_3_bgDark {
+    /* color */
+    background-color: hsl(200, 80%, 10%);
+}
+
+.keysCol_1_bgDark {
+
+    /* color */
+    /* background-color: hsl(228, 71%, 53%); */
+    background-color: hsl(200, 10%, 30%);
+
+}
+
+.baseCol_1Dark {
+
+    /* color */
+    color: hsl(0, 0%, 80%);
+
+}
+
+.secoCol_1Dark {
+
+    color: hsl(200, 20%, 70%);
+
+}
+
+.keysCol_1Dark {
+    /* color */
+    color: hsl(20, 80%, 60%);
+    /* text-shadow: 0px 3px 10px rgb(255, 255, 255); */
+
+}
+/* --   --  --  --  --  --  -- */
+/* color classes dark_MODE --END */
+
+
+
+
+
+.baseCol_1_bg, .baseCol_2_bg, .secoCol_1_bg, .secoCol_2_bg, .keysCol_1_bg, .baseCol_1, .secoCol_1, .secoCol_2, .keysCol_1, .baseCol_1_bgDark, .baseCol_2_bgDark, .secoCol_1_bgDark, .keysCol_1_bgDark, .baseCol_1Dark, .secoCol_1Dark, .keysCol_1Dark {
+    transition: .5s;
+}

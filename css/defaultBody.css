@@ -1,0 +1,121 @@
+html, body {
+    /* shape */
+    width: 100%;
+    height: 10000px;
+    /* alignment */
+    margin: 0;
+    padding: 0; 
+
+    padding-bottom: 10rem;
+    
+    
+}
+
+@font-face {
+    font-family: defaultFontBold;
+    src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+    
+}
+
+@font-face {
+    font-family: defaultFont;
+    src: url(/fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+    
+}
+
+@font-face {
+    font-family: defaultFontIndicator;
+    src: url(/fonts/Caladea/Caladea-Regular.ttf);
+    
+}
+
+.defTitle_font {
+    font-family: defaultFontBold;
+    font-weight: 800;
+    
+}
+
+.defSubTitle_font {
+    font-family: defaultFontBold;
+    font-weight: 500;
+}
+
+.defPara_font {
+    font-family: defaultFont;
+    font-weight: 400;
+
+    
+}
+
+.defIndicator_font {
+    font-family: defaultFontIndicator;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.defFontSize0 {
+    font-size: 2rem;
+}
+
+.defFontSize1 {
+    font-size: 1rem;
+}
+.defFontSize2 {
+    font-size: .5rem;
+}
+
+.defTitle_fontSize0 {
+    font-size: 3rem;
+}
+
+.defTitle_fontSize-1 {
+    font-size: 1.5rem;
+}
+.defSubTitle_fontSize0 {
+    font-size: 2rem;
+}
+
+.marginSize0 {
+    margin: 1rem;
+}
+.paddingSize0 {
+    padding: 1rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px) {
+    
+
+    .defFontSize0 {
+        font-size: 1rem;
+    }
+    
+    .defFontSize1 {
+        font-size: .75rem;
+    }
+    .defFontSize2 {
+        font-size: .5rem;
+    }
+    
+    .defTitle_fontSize0 {
+        font-size: 1.25rem;
+    }
+    
+    .defTitle_fontSize-1 {
+        font-size: 1.5rem;
+    }
+    .defSubTitle_fontSize0 {
+        font-size: 2rem;
+    }
+    
+    .marginSize0 {
+        margin: 1rem;
+    }
+    .paddingSize0 {
+        padding: 1rem;
+    }
+    
+}

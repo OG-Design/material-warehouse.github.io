@@ -1,0 +1,30 @@
+/* button preset --START */
+.buttonPreset {
+
+    min-width: fit-content;
+    min-height: fit-content;
+
+
+    border: none;
+
+    /* animation duration */
+    transition: .05s ease-in-out;
+    margin: 0;
+    z-index: +1;
+}
+
+.buttonPreset:hover {
+
+    transform: scale(1.05);
+
+}
+
+.buttonPreset:active {
+    
+    transform: scale(1.1);
+
+}
+
+
+/* button preset --END */
+

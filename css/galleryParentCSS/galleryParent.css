@@ -1,0 +1,108 @@
+#galleryParent {
+    /* shape */
+    width: 100%;
+    min-height: 1rem;
+
+    /* child position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    /* debug */
+    /* background-color: aqua; */
+}
+
+
+.galleryCategoryParent {
+
+    /* shape */
+    width: 100%;
+    min-height: 1rem;
+    height: fit-content;
+
+    /* child position */
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.galleryTitleParent {
+
+    /* shape */
+    width: inherit;
+    height: 5rem;
+
+    /* child position */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    /* background-color: aqua; */
+}
+
+.galleryContentParent {
+
+    width: 90%;
+    height: fit-content;
+    display: grid;
+
+    /* grid setup auto adjust scale and pos to img res / aspect */
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: .1rem;
+
+    /* debug */
+    /* background-color: aqua; */
+
+    
+
+}
+
+.imageContentParent {
+    width: inherit;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    /* debug */
+    /* background-color: rgb(189, 192, 195); */
+    
+    
+    margin: 0;
+    padding: 0;
+}
+
+.galleryContentParent picture {
+    width: inherit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.galleryContentParent img {
+    width: 100%;
+    
+    margin: 0;
+    padding: 0;
+
+    margin-bottom: .5rem;
+
+}
